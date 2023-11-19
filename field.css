@@ -1,0 +1,81 @@
+/* Add your CSS styles here */
+body {
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(to right, #3498db, #2c3e50);
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 400px;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+}
+
+.input-container {
+  display: flex;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 8px;
+  margin-right: 5px;
+  border: 1px solid #007bff;
+  border-radius: 5px 0 0 5px;
+  background-color: #fff;
+}
+
+button {
+  padding: 8px;
+  border: 1px solid #007bff;
+  border-radius: 0 5px 5px 0;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+li {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #dee2e6;
+  transition: background-color 0.3s ease;
+}
+
+li:hover {
+  background-color: #f1f1f1;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #6c757d;
+}
+
+button.remove-btn {
+  background-color: #dc3545;
+  color: #fff;
+  border: 1px solid #dc3545;
+  padding: 5px 8px;
+  cursor: pointer;
+}
